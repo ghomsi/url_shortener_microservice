@@ -6,41 +6,42 @@ block content
     if (err)
         div
             h2(style = "color: red;")= err
-  
-    img(src="https://avatars2.githubusercontent.com/u/4965336?v=3&s=460" alt="My Face" width="100" height="100")
-    p
-      a(href="mailto:kemchepatou@gmail.com") 
-        i(class="fa fa-envelope fa-fw")
-      a(href="https://github.com/ghomsi" target="_blank") 
-        i(class="fa fa-github fa-fw")
-      a(href="http://codepen.io/adrienDev" target="_blank") 
-        i(class="fa fa-codepen")
-      a(href="http://www.freecodecamp.com/ghomsi" target="_blank")
-        i(class="fa fa-fire fa-fw")
-    h1(class="header")
-      | FreeCodeCamp API Basejump: URL Shortener Microservice
+    center
+        img(src="https://avatars2.githubusercontent.com/u/4965336?v=3&s=460" alt="My Face" width="100" height="100")
+        p
+            a(href="mailto:kemchepatou@gmail.com") 
+                i(class="fa fa-envelope fa-fw")
+            a(href="https://github.com/ghomsi" target="_blank") 
+                i(class="fa fa-github fa-fw")
+            a(href="http://codepen.io/adrienDev" target="_blank") 
+                i(class="fa fa-codepen")
+            a(href="http://www.freecodecamp.com/ghomsi" target="_blank")
+                i(class="fa fa-fire fa-fw")
+        h1(class="header")
+            | FreeCodeCamp API Basejump: URL Shortener Microservice
     blockquote
       p User stories:
       ul
         li I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
         li When I visit that shortened URL, it will redirect me to my original link.</ul>
-    h3 Example creation usage:
-    code.
-        https://url-shortener-microservice-ghomsi.c9users.io/new/https://www.google.com
-    br
-    code.
-        https://url-shortener-microservice-ghomsi.c9users.io/new/http://freecodecamp.com/news
-    h3 Example creation output
-    code.
-      {
-        "original_url":"https://www.google.com/",
-        "short_url":"https://little-url.herokuapp.com/2871"
-      }
-    h3 Usage:
-    code https://little-url.herokuapp.com/2871
-    h3 Will redirect to:
-    code.
-        https://www.google.com/
-    h3 
-      span(class="fa fa-heart animated infinite zoomIn",style="color:red") 
-      /Created by Ghomsi (ghomsi) Adrien.    
+    center
+        h3 Example creation usage:
+            code.
+                https://url-shortener-microservice-ghomsi.c9users.io/new/https://www.google.com
+            br
+            code.
+                https://url-shortener-microservice-ghomsi.c9users.io/new/http://freecodecamp.com/news
+        h3 Example creation output
+            code.
+                {
+                "original_url":"https://www.google.com/",
+                "short_url":"https://little-url.herokuapp.com/2871"
+                }
+        h3 Usage:
+            code https://little-url.herokuapp.com/2871
+        h3 Will redirect to:
+            code.
+                https://www.google.com/
+        h3 
+            span(class="fa fa-heart animated infinite zoomIn",style="color:red") 
+            /Created by Ghomsi (ghomsi) Adrien.    
